@@ -4,7 +4,7 @@ package m17b_trab_autonomo_a159e160;
  * @author Diogo Inês
  */
 public class Ponto2D {
-    /** Coordenada da abcissa*/
+    /** Coordenada da abscissa*/
     private int x;
     
     /** Coordenada da ordenada*/
@@ -22,7 +22,7 @@ public class Ponto2D {
     /**
     * Construtor  que inicializa os atributos
     * com os parametros x, y.
-    * @param x abcissa
+    * @param x abscissa
     * @param y ordenada
     */
     public Ponto2D(int x, int y){
@@ -31,7 +31,7 @@ public class Ponto2D {
     }
     /**
     * 
-    * @param a valor da abcissa e da ordenada
+    * @param a valor da abscissa e da ordenada
     * @return distância entre dois objectos
     */
     public double distancia(Ponto2D a){
@@ -41,7 +41,7 @@ public class Ponto2D {
     
     /**
     * 
-    * @return x valor da abcissa
+    * @return x valor da abscissa
     */
     public int getX() {
         return x;
@@ -50,7 +50,7 @@ public class Ponto2D {
     
     /**
     * 
-    * @param x valor da abcissa
+    * @param x valor da abscissa
     */
     public void setX(int x) {
         this.x = x;
@@ -76,7 +76,7 @@ public class Ponto2D {
     
     /**
     * 
-    * @return valor da abcissa e ordenada
+    * @return valor da abscissa e ordenada
     */
     @Override
     public String toString() {
